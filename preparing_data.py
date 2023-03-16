@@ -46,7 +46,7 @@ def data_extracting(file, image, photo_action):
             products.append([item['description'], item['amount']])
 
     for count, pair in enumerate(products):
-        if "Nuolaida" in pair[0]:
+        if "nuolaida" in pair[0].lower():
             products[count - 1][1] += pair[1]
             del products[count]
 
