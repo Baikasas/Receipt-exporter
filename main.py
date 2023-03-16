@@ -97,7 +97,7 @@ def transition(var, photo_action, photo):
     from datetime import datetime
 
     json_name = datetime.now().strftime("%Y-%m-%d_%H:%M")
-    #json_name = "2023-02-28_22:45" #for data from json only
+    #json_name = "2023-03-16_15:54" #for data from json only
     products = data_work_1(json_name, photo, photo_action)
 
     from preparing_data import data_work_2
