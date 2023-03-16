@@ -105,7 +105,7 @@ def extract_options(categories):
 
 def data_work_1(json_name, photo, photo_action):
 
-    #read_receipt(json_name, photo) #comment if using data from json file
+    read_receipt(json_name, photo) #comment if using data from json file
     products = data_extracting(json_name, photo, photo_action)
 
     return products
