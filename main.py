@@ -14,6 +14,10 @@ def updating(api, key, window):
 
         if api == info[0] and key == info[1]:
             inform("Api and a key are not new.", window)
+        elif api == "Api file path":
+            api = info[0]
+        elif key == "Doc key":
+            key = info[1]
 
     except FileNotFoundError:
         inform("File 'api_key.json' is not found, it has been created.", window)
@@ -93,7 +97,7 @@ def transition(var, photo_action, photo):
     from datetime import datetime
 
     #json_name = datetime.now().strftime("%Y-%m-%d_%H:%M")
-    json_name = "2023-03-15_16:03"
+    json_name = "2023-03-11_21:38"
     products = data_work_1(json_name, photo, photo_action)
 
     from preparing_data import data_work_2
