@@ -109,7 +109,7 @@ def transition(var, photo_action, photo):
         widget.destroy()
 
     from main_window import main_table
-    main_table(data, drop_down_list, center, top_frame, google_sheet, json_name)
+    main_table(data, drop_down_list, center, top_frame, google_sheet, json_name, categories)
 
 
 def add_cat_sub():

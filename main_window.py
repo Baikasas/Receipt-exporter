@@ -271,13 +271,13 @@ def find_empty_row(document_name, sheet):
     return row
 
 
-def main_table(data, drop_down_list, center, top_frame, google, json):
+def main_table(data, drop_down_list, center, top_frame, google, json, categories):
 
     global table, names_to_remember, google_sheet, json_name
     google_sheet, json_name = google, json
 
     names_to_remember = []
 
-    table = Table(center, data, drop_down_list)
+    table = Table(center, data, drop_down_list, categories)
     button = Button(top_frame, text="Summary view", command=lambda: update_summary_data(button, center, top_frame))
     button.grid()

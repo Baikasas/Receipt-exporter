@@ -1,14 +1,14 @@
 from tkinter import Label, Button, OptionMenu, StringVar, DISABLED
 from functools import partial
 from decimal import Decimal
-from categorize import categories
 
 
 class Table:
 
-    def __init__(self, root, data, drop_down_list):
+    def __init__(self, root, data, drop_down_list, categories):
         self.widgets = []
         self.root = root
+        self.categories = categories
 
         self.drop_down_list = drop_down_list
         self.names_to_remember = []
@@ -55,7 +55,7 @@ class Table:
 
     def update_cat(self, row, value):
 
-        for category, subs in categories.items():
+        for category, subs in self.categories.items():
             if value in subs:
                 new_cat = category
                 break
