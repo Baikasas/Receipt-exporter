@@ -1,1 +1,1 @@
-# Receipt-exporter
+# Receipt exporter
