@@ -197,15 +197,15 @@ def starting_view():
 
     var = IntVar()
     google = Radiobutton(center, text="Google Sheets", variable=var, value=1)
-    google.grid(row=0, column=0, sticky="nsew")
+    google.grid(row=0, column=0, sticky='nsew')
 
     excel = Radiobutton(center, text="Excel", variable=var, value=2)
-    excel.grid(row=1, column=0, sticky="nsew")
+    excel.grid(row=1, column=0, sticky='nsew')
 
     update_api = Button(center, text="Update Api & Key", command=updating_api)
     update_api.grid(row=0, column=1)
 
-    cat_sub_pair = Button(center, text="Add category & subcategory", command=add_cat_sub)
+    cat_sub_pair = Button(center, text="Add (sub)category", command=add_cat_sub)
     cat_sub_pair.grid(row=1, column=1)
 
 
@@ -225,11 +225,11 @@ root.title("Receipt exporter")
 
 root.protocol("WM_DELETE_WINDOW", off)
 
-top_frame = Frame(root, width=900)
+top_frame = Frame(root)
 center = Frame(root)
 
-top_frame.grid(row=0, sticky="n")
-center.grid(row=1, sticky="s")
+top_frame.grid(row=0, padx=10, pady=5)
+center.grid(row=1, padx=10, ipadx=10, pady=5)
 
 starting_view()
 
