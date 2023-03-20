@@ -142,7 +142,8 @@ def exporting_data(entry_date, var, var_check, sheet, sheet_col, split_sum, spli
 
     import pandas as pd
 
-    data_main = [[entry_date.get(), "Expense", "Accounts", var.get(), sub_type, row[1].cget("text"), row[2].get(), _cost_convert(row[3].cget("text"))] for row in table.widgets]
+    data_main = [[entry_date.get(), "Expense", "Accounts", var.get(), sub_type, row[1].cget("text"), row[2].get(),
+                  _cost_convert(row[3].cget("text"))] for row in table.widgets]
     df_1 = pd.DataFrame(data_main)
 
     if google_sheet:
