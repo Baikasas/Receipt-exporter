@@ -70,7 +70,7 @@ def transition(var, photo_action, photo):
 
     if photo == "Photo location" or photo == "":
         inform("Photo location is missing")
-        return #comment if using data from json only
+        return
     elif not os.path.exists(photo):
         inform("Photo location does not exist")
         return
@@ -97,7 +97,6 @@ def transition(var, photo_action, photo):
     from datetime import datetime
 
     json_name = datetime.now().strftime("%Y-%m-%d_%H:%M")
-    #json_name = "2023-03-16_15:54" #for data from json only
     products = data_work_1(json_name, photo, photo_action)
 
     from preparing_data import data_work_2
