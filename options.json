@@ -1,143 +1,26 @@
 {
-  "Food": [
-    "kiaušiniai",
-    "grikių kruopos",
-    "makaronai",
-    "miltai",
-    "avinžirniai",
-    "auksiniai plikyti ryžiai",
-    "pievagrybiai baltic champignons (20 50 indel"
+  "Fish": [
+    "salmon"
   ],
-  "Vištiena": [
-    "vištiena",
-    "šlaunelės",
-    "krūtinėlė",
-    "lauzdelės",
-    "peteliai",
-    "broilerių file"
+  "Meat": [
+    "pork"
   ],
-  "Žuvis": [
-    "žuvis"
+  "Dairy products": [
+    "butter"
   ],
-  "Mėsa": [
-    "mėsa",
-    "kiaul.ment.šašlyk"
+  "Vegetables": [
+    "carrots"
   ],
-  "Pieno produktai": [
-    "pienas",
-    "fermentinis rokiškio süris",
-    "saris germanto gouda",
-    "grietine",
-    "fetos sūris",
-    "sviestas",
-    "halloumi sūris",
-    "dvaro sviestas",
-    "rokiškio naminė grietinė",
-    "germanto gouda sūris 45%",
-    "sūris germanto gouda, 45% rieb. s. m"
+  "Fruit": [
+    "apples"
   ],
-  "Daržovės": [
-    "špinatai",
-    "keptos raudonos paprikos mega di catò",
-    "salotų mišinys fit & easy gurmas",
-    "agurkai ilgavaisiai",
-    "lietuviški svogūnai",
-    "smulkiavaisiai slyviniai pomidorai"
-  ],
-  "Vaisiai": [
-    "obuoliai golden (75-85 mm)",
-    "obuoliai royal gala (75-80 mm)",
-    "mangas",
-    "bananai",
-    "citrinos",
-    "džiovinti mangų lapeliai"
-  ],
-  "Duona": [
-    "duona",
-    "ruginė sumuštinių duona toste",
+  "Bread": [
     "duona skrudinimui toste protein"
   ],
-  "Skanučiai": [
-    "keksiukas su razinomis",
-    "medaus pyragas",
-    "dzūkijos sausainiai rududu",
-    "marcipaninis sukutis",
-    "cinamoninė pynė",
-    "pergales saldainių rinkinys",
-    "saldainiai unique marc de champagne",
-    "avietiniai kviečių trapučiai",
-    "šokoladas",
-    "sviestiniai sausainiai"
-  ],
-  "Sultys": [
-    "sultys"
-  ],
-  "Vanduo": [
-    "vanduo"
-  ],
-  "Alko": [
-    "alus"
-  ],
-  "Snakas": [
-    "traškios duonos riekelės jore su saulėgrąžomis",
-    "traškios duonos riekelės jore",
-    "riešuta"
-  ],
-  "Arbata": [
-    "arbata"
-  ],
-  "Eating out": [
-    "N/A"
-  ],
-  "Prieskoniai, etc": [
-    "prieskoniai",
-    "krapai (20",
-    "bazilikai well done (indelyje, 20 g)"
-  ],
-  "Čipsai": [
-    "natcho taffel",
-    "lay's",
-    "kukurūzų rutuliukai nacho taffel, sūrio skonio,",
-    "traškučiai"
-  ],
-  "Ant sumuštinio": [
-    "paštetas"
-  ],
-  "Paruoštukai": [
-    "blyneliai",
-    "oykata",
-    "cezario salotos su vištiena ir kepta sonine",
-    "žemaičių blynai su mėsos įdaru",
-    "kol su bul. ir šon"
-  ],
   "Furniture": [
-    "stalas"
-  ],
-  "Kitchen": [
-    "peilis"
-  ],
-  "Toiletries": [
-    "tualetinis popierius"
-  ],
-  "Fix": [
-    "N/A"
+    "table"
   ],
   "Books": [
-    "knyga"
-  ],
-  "Board-games": [
-    "stalo žaidimas"
-  ],
-  "Going out": [
-    "Going out"
-  ],
-  "Trips": [
-    "N/A"
-  ],
-  "Kanceliarija": [
-    "tušinukas"
-  ],
-  "Higiena": [
-    "N/A"
+    "book"
   ]
 }

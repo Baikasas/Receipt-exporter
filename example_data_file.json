@@ -1,0 +1,208 @@
+{
+  "ocr_type": "receipts",
+  "request_id": "P_88.118.3.142_lfhg8bre_bjx",
+  "ref_no": "ocr_python_123",
+  "file_name": "20230321_000200.jpg",
+  "request_received_on": 1679354368394,
+  "success": true,
+  "image_width": 2040,
+  "image_height": 2884,
+  "image_rotation": 0.012,
+  "recognition_completed_on": 1679354371339,
+  "receipts": [
+    {
+      "merchant_name": "MAXIMU",
+      "merchant_address": null,
+      "merchant_phone": null,
+      "merchant_website": null,
+      "merchant_tax_reg_no": null,
+      "merchant_company_reg_no": null,
+      "region": null,
+      "mall": null,
+      "country": "US",
+      "receipt_no": "1293-0101-9770-1074",
+      "date": null,
+      "time": null,
+      "items": [
+        {
+          "amount": 1.99,
+          "category": null,
+          "description": "Duona skrudinimui TOSTE PROTEIN, 380 g",
+          "flags": " A",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 1.49,
+          "category": null,
+          "description": "UAT pienas be laktozés WELL DONE, 3,2 % rieb., 1",
+          "flags": " A",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 3.48,
+          "category": null,
+          "description": "A = 21,000,602,88",
+          "flags": "",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 3.48,
+          "category": null,
+          "description": "Mokėti",
+          "flags": "",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 5.0,
+          "category": null,
+          "description": "Mokėta (grynaisiais)",
+          "flags": "",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 1.52,
+          "category": null,
+          "description": "Grąža (grynaisiais)",
+          "flags": "",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 0.03,
+          "category": null,
+          "description": "Iš viso MAXIMOS PINIGU už kvitą",
+          "flags": "",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        },
+        {
+          "amount": 0.84,
+          "category": null,
+          "description": "MAXIMOS PINIGU likutis",
+          "flags": "",
+          "qty": null,
+          "remarks": null,
+          "tags": null,
+          "unitPrice": null
+        }
+      ],
+      "currency": "USD",
+      "total": 3.48,
+      "subtotal": null,
+      "tax": null,
+      "service_charge": null,
+      "tip": null,
+      "payment_method": null,
+      "payment_details": null,
+      "credit_card_type": null,
+      "credit_card_number": "6126",
+      "ocr_text": " MAXIMU\n                   MAXIMA LT UAB\n        Šaltkalvių g. 2, Vilnius, Kasa Nr. 10\n          PVM mokėtojo kodas LT230335113\n Kvitas 107/1977                                #00698724\n Duona skrudinimui TOSTE PROTEIN, 380 g            1,99 A\n UAT pienas be laktozés WELL DONE, 3,2 % rieb., 1\n 1                                                 1,49 A\n                      PVM          Be PVM          Su PVM\n A = 21,00           0,60            2,88            3,48\n Mokėti                                          3.48\n Mokėta (grynaisiais)                                5,00\n Grąža (grynaisiais)                                  1,52\n                                                         #\n AČIO kortele 944000 ********* 6126\n Iš viso MAXIMOS PINIGU už kvitą 0,03\n MAXIMOS PINIGU likutis 0,84\n Inv. Nr. 1293-0101-9770-1074\n                     AČIO, KAD PIRKOTE!\n              *Daugiau informacijos sužinokite\n            www.maxima.lt arba telefonu 8 800 20050\n Kasininkas (-e) 1003586 10\n LF NM 0000004B5AF1                    2023 03 20 12:58:29",
+      "ocr_confidence": 95.61,
+      "width": 1865,
+      "height": 2714,
+      "avg_char_width": 32.4782,
+      "avg_line_height": 66.6558,
+      "source_locations": {
+        "receipt_no": [
+          [
+            {
+              "y": 2140,
+              "x": 365
+            },
+            {
+              "y": 2148,
+              "x": 1039
+            },
+            {
+              "y": 2211,
+              "x": 1038
+            },
+            {
+              "y": 2203,
+              "x": 364
+            }
+          ]
+        ],
+        "credit_card_number": [
+          [
+            {
+              "y": 1777,
+              "x": 56
+            },
+            {
+              "y": 1794,
+              "x": 1196
+            },
+            {
+              "y": 1866,
+              "x": 1195
+            },
+            {
+              "y": 1849,
+              "x": 55
+            }
+          ]
+        ],
+        "merchant_name": [
+          [
+            {
+              "y": 109,
+              "x": 69
+            },
+            {
+              "y": 139,
+              "x": 1649
+            },
+            {
+              "y": 383,
+              "x": 1644
+            },
+            {
+              "y": 353,
+              "x": 65
+            }
+          ]
+        ],
+        "doc": [
+          [
+            {
+              "y": -16,
+              "x": 18
+            },
+            {
+              "y": 8,
+              "x": 2070
+            },
+            {
+              "y": 2995,
+              "x": 2033
+            },
+            {
+              "y": 2970,
+              "x": -17
+            }
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,45 +1,16 @@
 {
   "Food": [
-    "Food",
-    "Vištiena",
-    "Žuvis",
-    "Mėsa",
-    "Pieno produktai",
-    "Daržovės",
-    "Vaisiai",
-    "Duona",
-    "Skanučiai",
-    "Čipsai",
-    "Paruoštukai",
-    "Sultys",
-    "Vanduo",
-    "Alko",
-    "Snakas",
-    "Arbata",
-    "Eating out",
-    "Prieskoniai, etc",
-    "Ant sumuštinio"
+    "Fish",
+    "Meat",
+    "Dairy products",
+    "Vegetables",
+    "Fruit",
+    "Bread"
   ],
   "Household": [
-    "Furniture",
-    "Kitchen",
-    "Toiletries",
-    "Fix",
-    "Extra"
+    "Furniture"
   ],
   "Self-development": [
     "Books"
-  ],
-  "Entertainment": [
-    "Board-games",
-    "Going out",
-    "Trips",
-    "Extra"
-  ],
-  "Education": [
-    "Kanceliarija"
-  ],
-  "Beauty": [
-    "Higiena"
   ]
 }

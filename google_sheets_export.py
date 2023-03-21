@@ -21,6 +21,16 @@ def google_sheets_export(dataframe, sheet, column):
     if first_empty_row + len(dataframe) > worksheet.row_count:
         worksheet.add_rows(first_empty_row + len(dataframe) - worksheet.row_count)
 
+        requests = [
+            {
+                'updateSheetProperties': {
+                    'properties': {'gridProperties': {'rowCount': first_empty_row + len(dataframe)}},
+                    'fields': 'gridProperties.rowCount'
+                }
+            }
+        ]
+        worksheet.batch_update(requests)
+
     set_with_dataframe(worksheet, dataframe, row=first_empty_row, col=column, include_column_header=False)
 
 
