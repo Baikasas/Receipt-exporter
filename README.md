@@ -49,9 +49,9 @@ Any kind of contribution to this project is highly welcome! I would be eager to 
 If you would like to contribute to this project, please follow these steps:
 
 1. Fork this repository.
-2. Create a new branch with a descriptive name (git checkout -b feature/my-new-feature).
+2. Create a new branch with a descriptive name.
 3. Make your changes and commit them with a descriptive message.
-4. Push your changes to your forked repository (git push origin feature/my-new-feature).
+4. Push your changes to your forked repository.
 5. Open a pull request against the main branch of this repository.
 6. Describe your changes in the pull request and wait for feedback from the maintainers.
 
